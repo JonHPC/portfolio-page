@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "HTML/CSS",
     description:
       "A sample dashboard made with plain HTML and CSS only",
-    image: "./sample_dashboard.png",
+    image: "./images/sample_dashboard.png",
     link: "https://jonhpc.github.io/dashboard",
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     subtitle: "HTML/CSS",
     description:
       "A sample sign-up form made with plain HTML and CSS only",
-    image: "./sign_up_form.png",
+    image: "./images/sign_up_form.png",
     link: "https://jonhpc.github.io/sign-up-form",
   },
   {
