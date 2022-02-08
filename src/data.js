@@ -3,7 +3,7 @@ export const projects = [
     title: "Tea Tumble",
     subtitle: "C#/Unity",
     description:
-      "A 'Falldown' inspired game, hosted on Itch.io. Click to play!",
+      "A 'Falldown' inspired game made with Unity, hosted on Itch.io. Click to play!",
     image: "./images/tea_tumble.gif",
     link: "https://teabunnystudios.itch.io/tea-tumble",
   },
@@ -11,8 +11,8 @@ export const projects = [
     title: "Square Pop",
     subtitle: "C#/Unity",
     description:
-      "Get Green. Dodge Red. Hosted on Itch.io. Click to play!",
-    image: "./square_pop_1.png",
+      "Get Green. Dodge Red. A simple game made with Unity, hosted on Itch.io. Click to play!",
+    image: "./images/square_pop.gif",
     link: "https://teabunnystudios.itch.io/square-pop",
   },
   {
