@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "C#/Unity",
     description:
       "A 'Falldown' inspired game, hosted on Itch.io. Click to play!",
-    image: "./tea_tumble_4.png",
+    image: "./images/tea_tumble.gif",
     link: "https://teabunnystudios.itch.io/tea-tumble",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "C#/Unity",
     description:
       "A classic 'Shoot 'em up' made in a 3-day game jam, hosted on Itch.io. Click to play!",
-    image: "./nanobiotics_1.png",
+    image: "./images/nanobiotics.gif",
     link: "https://teabunnystudios.itch.io/nanobiotics",
   },
   {
@@ -28,8 +28,8 @@ export const projects = [
     subtitle: "C#/Unity",
     description:
       "A prototype VR shooting range, click to see a short video of the gameplay",
-    image: "./blaster_training_vr_1.png",
-    link: "https://teabunnystudios.itch.io/nanobiotics",
+    image: "./images/blaster_training_vr.gif",
+    link: "",
   },
   {
     title: "Sample Dashboard",
@@ -52,33 +52,49 @@ export const projects = [
     subtitle: "HTML/Sass/Javscript",
     description:
       "A sample restaurant page, generated dynamically with Javascript, styled with Sass",
-    image: "./wanmin_restaurant.png",
+    image: "./images/restaurant_page.gif",
     link: "https://jonhpc.github.io/wanmin-restaurant",
+  },
+  {
+    title: "To Do List",
+    subtitle: "HTML/CSS/Javscript",
+    description:
+      "A toy To Do List page made for practice, click to see live page on Github Pages",
+    image: "./images/todo-list.gif",
+    link: "https://jonhpc.github.io/todo-list",
   },
   {
     title: "Tic Tac Toe",
     subtitle: "HTML/CSS/Javascript",
     description:
-      "A toy Tic Tac Toe webpage, click to see live page",
-    image: "./tic_tac_toe.png",
+      "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
+    image: "./images/tic_tac_toe.gif",
     link: "https://jonhpc.github.io/tic-tac-toe",
   },
   {
     title: "Calculator",
     subtitle: "HTML/CSS/Javascript",
     description:
-      "A toy Calculator webpage, click to see live page",
-    image: "./calculator.png",
+      "A toy Calculator webpage made for practice, click to see live page on Github Pages",
+    image: "./images/calculator.gif",
     link: "https://jonhpc.github.io/calculator",
   },
   {
     title: "Etch a Sketch",
     subtitle: "HTML/CSS/Javascript",
     description:
-      "A toy Etch a Sketch webpage, click to see live page",
-    image: "./etch_a_sketch.png",
+      "A toy Etch a Sketch webpage made for practice, click to see live page on Github Pages",
+    image: "./images/etch_a_sketch.gif",
     link: "https://jonhpc.github.io/etch-a-sketch",
   },
+  {
+    title: "Weather App",
+    subtitle: "HTML/CSS/Javscript",
+    description:
+      "A toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
+    image: "",
+    link: "https://jonhpc.github.io/weather-app",
+  }
 ];
 
 export const profiles = [
