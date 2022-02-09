@@ -1,6 +1,6 @@
 // src/components/Skills.js
 
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
 
@@ -10,7 +10,7 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-black dark:text-white mb-4">
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
@@ -22,9 +22,9 @@ export default function Skills() {
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill.name} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-700 rounded flex p-4 h-full items-center transition ease-in-out hover:bg-gray-600">
-                <img src={skill.image} className="object-contain h-12 w-12 "/>
-                <span className="title-font font-medium text-white pl-4 ">
+              <div className="bg-gray-200 dark:bg-gray-700 rounded flex p-4 h-full items-center hover:bg-gray-100 dark:hover:bg-gray-600">
+                <img src={skill.image} alt="" className="object-contain h-12 w-12 "/>
+                <span className="title-font font-medium text-black dark:text-white pl-4 ">
                   {skill.name}
                 </span>
               </div>
