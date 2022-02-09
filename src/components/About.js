@@ -15,7 +15,7 @@ export default function About(){
                         I'm an enthusiastic and highly motivated front end web developer who loves constantly learning about new technologies. I am willing to do whatever it takes to get the job done!
                     </p>
                     <div className="flex justify-center">
-                        <a href="#contact" className="inline-flex text-black dark:text-white bg-green-400 dark:bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 dark:hover:bg-green-600 rounded text-lg">
+                        <a href="#contact" className="inline-flex text-white bg-indigo-600 dark:bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 dark:hover:bg-green-600 rounded text-lg">
                            Contact Me
                         </a>
                         <a href="#projects" className="ml-4 inline-flex text-gray-800 dark:text-gray-400 bg-gray-200 dark:bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 dark:hover:bg-gray-700 hover:text-black dark:hover:text-white rounded text-lg">
@@ -24,7 +24,7 @@ export default function About(){
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-5/6 md:w-1/2 md:ml-4  w-5/6">
-                    <img className="object-cover object-center rounded" alt="hero" src="./images/jon_headshot.jpg"/>
+                    <img className="object-cover object-center rounded shadow-md" alt="hero" src="./images/jon_headshot.jpg"/>
                 </div>
             </div>
         </section>

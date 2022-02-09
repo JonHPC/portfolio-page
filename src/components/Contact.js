@@ -31,7 +31,7 @@ export default function Contact() {
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex-column sm:flex-nowrap flex-wrap">
         <form
-            netlify
+            data-netlify="true"
             name="contact"
             onSubmit={handleSubmit}
             className="lg:w-1/2 md:w-1/2 flex flex-col mx-auto w-full md:py-8 mt-8 md:mt-0">
@@ -103,7 +103,7 @@ export default function Contact() {
                             <DownloadIcon className="w-12 h-12 hover:text-indigo-600"/>
                         </a>
                         <a href="#top">
-                            <ChevronDoubleUpIcon className="w-12 h-12 text-gray-500 hover:text-green-500 hover:animate-bounce" />
+                            <ChevronDoubleUpIcon className="w-12 h-12 text-gray-500 hover:text-green-500 animate-bounce" />
                         </a>
                     </div>
                 </div>

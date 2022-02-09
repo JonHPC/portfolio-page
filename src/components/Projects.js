@@ -26,11 +26,11 @@ export default function Projects() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center rounded"
+                  className="absolute inset-0 w-full h-full object-cover object-center rounded  shadow-md"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-100 dark:border-gray-700 bg-gray-300 dark:bg-gray-900 rounded opacity-0 transition ease-in-out hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-500 dark:text-green-400 mb-1">
+                <div className="px-8 py-10 relative z-1 w-full border-4 border-gray-200 dark:border-gray-700 bg-gray-300 dark:bg-gray-900 rounded opacity-0 transition ease-in-out hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-600 dark:text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-black dark:text-white mb-3">

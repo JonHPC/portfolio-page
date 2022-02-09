@@ -14,8 +14,8 @@ export default function Profiles() {
         </h1>
         <div className="flex flex-wrap m-4">
           {profiles.map((profile) => (
-            <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-gray-200 dark:bg-gray-700 bg-opacity-40 p-4 rounded ">
+            <div key={profile.company} className="p-4 md:w-1/2 w-full">
+              <div className="h-full bg-gray-200 dark:bg-gray-700 bg-opacity-40 p-4 rounded shadow-md">
                 <TerminalIcon className="block w-8 text-gray-500 mb-2" />
                 <p className="leading-relaxed mb-4">{profile.quote}</p>
                 <a href={profile.url}>
