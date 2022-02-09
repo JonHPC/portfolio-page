@@ -85,27 +85,27 @@ export default function Contact() {
                 </button>
                 <div className="mt-4">
                     <div className="flex justify-between">
-                        <div className="flex-column items-center">
-                            <h2 className="title-font font-semibold text-black dark:text-white tracking-widest text-xs text-center">
-                                EMAIL ME
-                            </h2>
-                            <a href="mailto:jonathan.hp.chen@gmail.com" className="text-indigo-500 leading-relaxed">
-                                <MailIcon className="w-12 h-12 hover:text-indigo-600" />
-                            </a>
-                        </div>
-                        <div className="flex-column items-center">
-                            <h2 className="title-font font-semibold text-black dark:text-white tracking-widest text-xs text-center">
-                            MY RESUME
-                            </h2>
-                            <a href="/images/react_logo.png" download className="text-indigo-500">
+                        <h2 className="title-font font-semibold text-black dark:text-white tracking-widest text-xs text-center">
+                            E-MAIL
+                        </h2>
+                        <h2 className="title-font font-semibold text-black dark:text-white tracking-widest text-xs text-center">
+                            RESUME
+                        </h2>
+                        <h2 className="title-font font-semibold text-black dark:text-white tracking-widest text-xs text-center">
+                            TO TOP
+                        </h2>                      
+                    </div>
+                    <div className="flex justify-between">
+                        <a href="mailto:jonathan.hp.chen@gmail.com" className="text-indigo-500 leading-relaxed">
+                            <MailIcon className="w-12 h-12 hover:text-indigo-600" />
+                        </a>
+                        <a href="/images/react_logo.png" download className="text-indigo-500">
                             <DownloadIcon className="w-12 h-12 hover:text-indigo-600"/>
-                            </a>
-                        </div>
+                        </a>
                         <a href="#top">
                             <ChevronDoubleUpIcon className="w-12 h-12 text-gray-500 hover:text-green-500 hover:animate-bounce" />
                         </a>
                     </div>
-                    
                 </div>
             </form>
       </div>
