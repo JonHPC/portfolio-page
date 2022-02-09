@@ -19,7 +19,7 @@ export default function Profiles() {
                 <TerminalIcon className="block w-8 text-gray-500 mb-2" />
                 <p className="leading-relaxed mb-4">{profile.quote}</p>
                 <a href={profile.url}>
-                  <div className="inline-flex items-center rounded p-1 hover:bg-gray-600">
+                  <div className="inline-flex items-center rounded p-1">
                     <img
                       alt="testimonial"
                       src={profile.image}

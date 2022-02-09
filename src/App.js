@@ -11,7 +11,7 @@ import Skills from "./components/Skills";
 
 export default function App() {
   return (
-    <main className="text-gray-600 dark:text-gray-400 bg-gray-300 dark:bg-gray-900 body-font" id="top">
+    <main className="text-gray-600 dark:text-gray-400 bg-gray-300 dark:bg-gray-900 body-font transition" id="top">
       <Navbar />
       <About />
       <Skills />

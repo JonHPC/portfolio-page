@@ -1,5 +1,37 @@
 export const projects = [
   {
+    title: "Weather App",
+    subtitle: "HTML/CSS/Javscript",
+    description:
+      "A toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
+    image: "",
+    link: "https://jonhpc.github.io/weather-app",
+  },
+  {
+    title: "Etch a Sketch",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Etch a Sketch webpage made for practice, click to see live page on Github Pages",
+    image: "./images/etch_a_sketch.gif",
+    link: "https://jonhpc.github.io/etch-a-sketch",
+  },
+  {
+    title: "Calculator",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Calculator webpage made for practice, click to see live page on Github Pages",
+    image: "./images/calculator.gif",
+    link: "https://jonhpc.github.io/calculator",
+  },
+  {
+    title: "Tic Tac Toe",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
+    image: "./images/tic_tac_toe.gif",
+    link: "https://jonhpc.github.io/tic-tac-toe",
+  },
+  {
     title: "Tea Tumble",
     subtitle: "C#/Unity",
     description:
@@ -63,38 +95,10 @@ export const projects = [
     image: "./images/todo-list.gif",
     link: "https://jonhpc.github.io/todo-list",
   },
-  {
-    title: "Tic Tac Toe",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
-    image: "./images/tic_tac_toe.gif",
-    link: "https://jonhpc.github.io/tic-tac-toe",
-  },
-  {
-    title: "Calculator",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Calculator webpage made for practice, click to see live page on Github Pages",
-    image: "./images/calculator.gif",
-    link: "https://jonhpc.github.io/calculator",
-  },
-  {
-    title: "Etch a Sketch",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Etch a Sketch webpage made for practice, click to see live page on Github Pages",
-    image: "./images/etch_a_sketch.gif",
-    link: "https://jonhpc.github.io/etch-a-sketch",
-  },
-  {
-    title: "Weather App",
-    subtitle: "HTML/CSS/Javscript",
-    description:
-      "A toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
-    image: "",
-    link: "https://jonhpc.github.io/weather-app",
-  }
+  
+  
+  
+  
 ];
 
 export const profiles = [

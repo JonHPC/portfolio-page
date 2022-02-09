@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <header className="bg-gray-200 dark:bg-gray-800 md:sticky top-0 z-10 position-relative">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row justify-center items-center">
         <a href="#about"className="title-font font-medium text-black dark:text-white mb-4 md:mb-0">
           <p className="ml-3 text-xl">
             Jonathan Chen
@@ -34,10 +34,10 @@ export default function Navbar() {
                 Profiles
             </a>
         </nav>
-        <button onClick={toggleMode} className="py-2 px-3 mr-5">Toggle Mode</button>
+        <button onClick={toggleMode} className="focus:outline-none py-1 px-3 border-2 border-gray-500 mr-5 hover:text-black dark:hover:text-white hover:bg-gray-300 dark:hover:bg-gray-700 rounded">Toggle Mode</button>
         <a
           href="#contact"
-          className="inline-flex items-center  dark:bg-gray-800 border-0 py-1 px-3 focus:outline-none dark:hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center hover:text-black dark:hover:text-white bg-gray-200 dark:bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 dark:hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>

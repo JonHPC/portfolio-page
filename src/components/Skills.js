@@ -14,15 +14,13 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+            These are the skills and technologies I know.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill.name} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-200 dark:bg-gray-700 rounded flex p-4 h-full items-center hover:bg-gray-100 dark:hover:bg-gray-600">
+              <div className="bg-gray-200 dark:bg-gray-700 rounded flex p-4 h-full items-center">
                 <img src={skill.image} alt="" className="object-contain h-12 w-12 "/>
                 <span className="title-font font-medium text-black dark:text-white pl-4 ">
                   {skill.name}

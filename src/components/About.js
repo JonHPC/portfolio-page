@@ -19,7 +19,7 @@ export default function About(){
                            Contact Me
                         </a>
                         <a href="#projects" className="ml-4 inline-flex text-gray-800 dark:text-gray-400 bg-gray-200 dark:bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 dark:hover:bg-gray-700 hover:text-black dark:hover:text-white rounded text-lg">
-                            See My Past Work
+                            Projects
                         </a>
                     </div>
                 </div>
