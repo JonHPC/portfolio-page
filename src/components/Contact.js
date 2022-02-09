@@ -99,7 +99,7 @@ export default function Contact() {
                         <a href="mailto:jonathan.hp.chen@gmail.com" className="text-indigo-500 leading-relaxed">
                             <MailIcon className="w-12 h-12 hover:text-indigo-600" />
                         </a>
-                        <a href="/images/react_logo.png" download className="text-indigo-500">
+                        <a href="jonathan_chen_resume.pdf" download className="text-indigo-500">
                             <DownloadIcon className="w-12 h-12 hover:text-indigo-600"/>
                         </a>
                         <a href="#top">
