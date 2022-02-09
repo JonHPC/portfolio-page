@@ -25,12 +25,18 @@ export default function Contact() {
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
+      clearForm();
   }
+
+    function clearForm() {
+        document.getElementById("contact-form").reset();
+    }
 
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex-column sm:flex-nowrap flex-wrap">
         <form
+            id="contact-form"
             data-netlify="true"
             method="POST"
             name="contact"
@@ -52,6 +58,7 @@ export default function Contact() {
                     name="name"
                     className="w-full bg-gray-200 dark:bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     onChange={(e) => setName(e.target.value)}
+                    required
                     />
                 </div>
                 <div className="relative mb-4">
@@ -64,6 +71,7 @@ export default function Contact() {
                     name="email"
                     className="w-full bg-gray-200 dark:bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                     />
                 </div>
                 <div className="relative mb-4">
@@ -77,6 +85,7 @@ export default function Contact() {
                     name="message"
                     className="w-full bg-gray-200 dark:bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-900 dark:text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                     onChange={(e) => setMessage(e.target.value)}
+                    required
                     />
                 </div>
                 <button
