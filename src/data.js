@@ -3,8 +3,8 @@ export const projects = [
     title: "Weather App",
     subtitle: "HTML/CSS/Javscript",
     description:
-      "A toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
-    image: "",
+      "A responsive toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
+    image: "./images/weather_app.gif",
     link: "https://jonhpc.github.io/weather-app",
   },
   {
