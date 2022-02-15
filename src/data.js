@@ -56,12 +56,12 @@ export const projects = [
     link: "https://teabunnystudios.itch.io/nanobiotics",
   },
   {
-    title: "Blaster Training VR",
-    subtitle: "C#/Unity",
+    title: "Rock Paper Scissors",
+    subtitle: "HTML/CSS/Javascript",
     description:
-      "A prototype VR shooting range, click to see a short video of the gameplay",
-    image: "./images/blaster_training_vr.gif",
-    link: "",
+      "A toy Rock Paper Scissors page, click here to see the live page.",
+    image: "./images/rps.gif",
+    link: "https://jonhpc.github.io/odin-rps/",
   },
   {
     title: "Sample Dashboard",
