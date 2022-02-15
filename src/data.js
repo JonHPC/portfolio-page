@@ -61,7 +61,7 @@ export const projects = [
     description:
       "A toy Rock Paper Scissors page, click here to see the live page.",
     image: "./images/rps.gif",
-    link: "https://jonhpc.github.io/odin-rps/",
+    link: "https://jonhpc.github.io/rock-paper-scissors/",
   },
   {
     title: "Sample Dashboard",
