@@ -59,7 +59,7 @@ export const projects = [
     title: "Rock Paper Scissors",
     subtitle: "HTML/CSS/Javascript",
     description:
-      "A toy Rock Paper Scissors page, click here to see the live page.",
+      "A toy Rock Paper Scissors page, click here to see the live page on Github pages.",
     image: "./images/rps.gif",
     link: "https://jonhpc.github.io/rock-paper-scissors/",
   },
