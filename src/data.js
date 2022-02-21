@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "rngee.io",
+    subtitle: "React/CSS/Netlify",
+    description:
+      "A responsive, toy page for generating a variety of random values. Deployed on Netlify. Click to view live site.",
+    image: "./images/rngee.gif",
+    link: "https://eloquent-curie-e3f404.netlify.app/",
+  },
+  {
     title: "Weather App",
     subtitle: "HTML/CSS/Javscript",
     description:
@@ -56,10 +64,18 @@ export const projects = [
     link: "https://teabunnystudios.itch.io/nanobiotics",
   },
   {
+    title: "Pomodoro Timer",
+    subtitle: "HTML/Javascript/Tailwind CSS",
+    description:
+      "A toy pomodoro timer website, click here to see the live page on Github pages.",
+    image: "./images/pomodoro_timer.gif",
+    link: "https://jonhpc.github.io/pomodoro-timer/",
+  },
+  {
     title: "Rock Paper Scissors",
     subtitle: "HTML/CSS/Javascript",
     description:
-      "A toy Rock Paper Scissors page, click here to see the live page on Github pages.",
+      "A toy rock paper scissors page, click here to see the live page on Github pages.",
     image: "./images/rps.gif",
     link: "https://jonhpc.github.io/rock-paper-scissors/",
   },
