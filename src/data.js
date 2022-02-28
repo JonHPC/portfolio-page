@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A responsive, toy page for generating a variety of random values. Deployed on Netlify. Click to view live site.",
     image: "./images/rngee.gif",
-    link: "https://eloquent-curie-e3f404.netlify.app/",
+    link: "https://rngee.io",
   },
   {
     title: "Weather App",
