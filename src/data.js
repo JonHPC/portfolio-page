@@ -180,7 +180,7 @@ export const skills = [
   },
   {
     name: "Pinia",
-    image: "./images/pinia_logo.png"
+    image: "./images/pinia_logo.svg"
   },
   {
     name: "Node.js",
