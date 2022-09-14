@@ -1,5 +1,37 @@
 export const projects = [
   {
+    title: "Colada",
+    subtitle: "Vue/Pinia/Chrome DevTool",
+    description:
+      "Pinia State Management Library Developer Tools",
+    image: "",
+    link: "",
+  },
+  {
+    title: "Axolotl Beats",
+    subtitle: "React/CSS/MongoDB/Node/Express/Spoitfy API",
+    description:
+      "Custom Spotify Playlist Generator",
+    image: "",
+    link: "",
+  },
+  {
+    title: "Histoical Climate Data",
+    subtitle: "React/MongoDB/Node/Express",
+    description:
+      "Climate Data Visualizer",
+    image: "",
+    link: "",
+  },
+  {
+    title: "Octolog",
+    subtitle: "PostGreSQL/Node/Express/React",
+    description:
+      "Scuba Diving Log Application",
+    image: "",
+    link: "",
+  },
+  {
     title: "rngee.io",
     subtitle: "React/CSS/Netlify",
     description:
@@ -78,43 +110,7 @@ export const projects = [
       "A toy rock paper scissors page, click here to see the live page on Github pages.",
     image: "./images/rps.gif",
     link: "https://jonhpc.github.io/rock-paper-scissors/",
-  },
-  {
-    title: "Sample Dashboard",
-    subtitle: "HTML/CSS",
-    description:
-      "A sample dashboard made with plain HTML and CSS only",
-    image: "./images/sample_dashboard.png",
-    link: "https://jonhpc.github.io/dashboard",
-  },
-  {
-    title: "Sample Sign-Up Form",
-    subtitle: "HTML/CSS",
-    description:
-      "A sample sign-up form made with plain HTML and CSS only",
-    image: "./images/sign_up_form.png",
-    link: "https://jonhpc.github.io/sign-up-form",
-  },
-  {
-    title: "Sample Restaurant Page",
-    subtitle: "HTML/Sass/Javscript",
-    description:
-      "A sample restaurant page, generated dynamically with Javascript, styled with Sass",
-    image: "./images/restaurant_page.gif",
-    link: "https://jonhpc.github.io/wanmin-restaurant",
-  },
-  {
-    title: "To Do List",
-    subtitle: "HTML/CSS/Javscript",
-    description:
-      "A toy To Do List page made for practice, click to see live page on Github Pages",
-    image: "./images/todo-list.gif",
-    link: "https://jonhpc.github.io/todo-list",
-  },
-  
-  
-  
-  
+  }, 
 ];
 
 export const profiles = [
@@ -139,16 +135,28 @@ export const profiles = [
 
 export const skills = [
   {
-    name: "HTML5",
+    name: "HTML",
     image: "./images/HTML5_logo.png"
   },
   {
-    name: "CSS3",
+    name: "CSS",
     image: "./images/CSS3_logo.png"
   },
   {
     name: "Javascript",
     image: "./images/Javascript_logo.png"
+  },
+  {
+    name: "Typescript",
+    image: "./images/Typescript_logo.png"
+  },
+  {
+    name: "MongoDB",
+    image: "./images/mongodb_logo.png"
+  },
+  {
+    name: "PostGreSQL",
+    image: "./images/postgresql_logo.png"
   },
   {
     name: "SASS",
@@ -163,8 +171,40 @@ export const skills = [
     image: "./images/react_logo.png"
   },
   {
+    name: "Redux",
+    image: "./images/redux_logo.png"
+  },
+  {
+    name: "Vue",
+    image: "./images/vue_logo.png"
+  },
+  {
+    name: "Pinia",
+    image: "./images/pinia_logo.png"
+  },
+  {
     name: "Node.js",
     image: "./images/node_js_logo.png"
+  },
+  {
+    name: "Express",
+    image: "./images/express_logo.png"
+  },
+  {
+    name: "REST API",
+    image: "./images/rest_api_logo.png"
+  },
+  {
+    name: "Jest",
+    image: "./images/jest_logo.png"
+  },
+  {
+    name: "Supertest",
+    image: "./images/supertest_logo.png"
+  },
+  {
+    name: "Authentication",
+    image: "./images/authentication_logo.png"
   },
   {
     name: "Webpack",
@@ -173,6 +213,18 @@ export const skills = [
   {
     name: "Git",
     image: "./images/git_logo.png"
+  },
+  {
+    name: "Docker",
+    image: "./images/docker_logo.png"
+  },
+  {
+    name: "AWS",
+    image: "./images/aws_logo.png"
+  },
+  {
+    name: "Travis CI",
+    image: "./images/travis_ci_logo.png"
   },
   {
     name: "C#",
@@ -185,8 +237,17 @@ export const skills = [
   {
     name: "Adobe Creative Suite",
     image: "./images/adobe_logo.png"
-  }
-  
- 
-  
+  },
+  {
+    name: "Swift",
+    image: "./images/swift_logo.png"
+  },
+  {
+    name: "Xcode",
+    image: "./images/xcode_logo.png"
+  },
+  {
+    name: "Python",
+    image: "./images/python_logo.png"
+  },
 ];
