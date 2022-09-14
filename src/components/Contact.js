@@ -103,7 +103,7 @@ export default function Contact() {
                         </h2>                      
                     </div>
                     <div className="flex justify-between">
-                        <a href="mailto:jonathan.hp.chen@gmail.com" className="text-indigo-500 leading-relaxed">
+                        <a href="mailto:jonathanchen832@gmail.com" className="text-indigo-500 leading-relaxed">
                             <MailIcon className="w-12 h-12 hover:text-indigo-600" />
                         </a>
                         <a href="#top">
