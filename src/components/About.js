@@ -12,7 +12,7 @@ export default function About(){
                         <br className="hidden lg:inline-block" /> I love building and creating awesome stuff!
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        I'm an enthusiastic and highly motivated front end web developer who loves constantly learning about new technologies. I am willing to do whatever it takes to get the job done!
+                        I'm an enthusiastic and highly motivated full stack developer who loves constantly learning about new technologies. I am willing to do whatever it takes to get the job done!
                     </p>
                     <div className="flex justify-center">
                         <a href="#contact" className="inline-flex text-white bg-indigo-600 dark:bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 dark:hover:bg-green-600 rounded text-lg">
