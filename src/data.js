@@ -4,16 +4,24 @@ export const projects = [
     subtitle: "Vue/Pinia/Chrome DevTool",
     description:
       "Time-travel debugging tool for Pinia",
-    image: "",
+    image: "./images/colada.gif",
+    link: "https://github.com/oslabs-beta/colada",
+  },
+  {
+    title: "Colada Website",
+    subtitle: "Vue/Tailwind CSS",
+    description:
+      "Landing page for Colada DevTools",
+    image: "./images/colada-website.png",
     link: "https://colada.dev",
   },
   {
     title: "Axolotl Beats",
-    subtitle: "React/CSS/MongoDB/Node/Express/Spoitfy API",
+    subtitle: "React/MongoDB/Express/Spotify API",
     description:
       "Custom Spotify Playlist Generator",
     image: "",
-    link: "",
+    link: "https://github.com/Axolotl-Beats-52/axolotl-beats",
   },
   {
     title: "Octolog",
@@ -31,38 +39,38 @@ export const projects = [
     image: "./images/rngee.gif",
     link: "https://rngee.io",
   },
-  {
-    title: "Weather App",
-    subtitle: "HTML/CSS/Javscript",
-    description:
-      "A responsive toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
-    image: "./images/weather_app.gif",
-    link: "https://jonhpc.github.io/weather-app",
-  },
-  {
-    title: "Etch a Sketch",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Etch a Sketch webpage made for practice, click to see live page on Github Pages",
-    image: "./images/etch_a_sketch.gif",
-    link: "https://jonhpc.github.io/etch-a-sketch",
-  },
-  {
-    title: "Calculator",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Calculator webpage made for practice, click to see live page on Github Pages",
-    image: "./images/calculator.gif",
-    link: "https://jonhpc.github.io/calculator",
-  },
-  {
-    title: "Tic Tac Toe",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
-    image: "./images/tic_tac_toe.gif",
-    link: "https://jonhpc.github.io/tic-tac-toe",
-  },
+  // {
+  //   title: "Weather App",
+  //   subtitle: "HTML/CSS/Javscript",
+  //   description:
+  //     "A responsive toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
+  //   image: "./images/weather_app.gif",
+  //   link: "https://jonhpc.github.io/weather-app",
+  // },
+  // {
+  //   title: "Etch a Sketch",
+  //   subtitle: "HTML/CSS/Javascript",
+  //   description:
+  //     "A toy Etch a Sketch webpage made for practice, click to see live page on Github Pages",
+  //   image: "./images/etch_a_sketch.gif",
+  //   link: "https://jonhpc.github.io/etch-a-sketch",
+  // },
+  // {
+  //   title: "Calculator",
+  //   subtitle: "HTML/CSS/Javascript",
+  //   description:
+  //     "A toy Calculator webpage made for practice, click to see live page on Github Pages",
+  //   image: "./images/calculator.gif",
+  //   link: "https://jonhpc.github.io/calculator",
+  // },
+  // {
+  //   title: "Tic Tac Toe",
+  //   subtitle: "HTML/CSS/Javascript",
+  //   description:
+  //     "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
+  //   image: "./images/tic_tac_toe.gif",
+  //   link: "https://jonhpc.github.io/tic-tac-toe",
+  // },
   {
     title: "Tea Tumble",
     subtitle: "C#/Unity",
@@ -87,14 +95,14 @@ export const projects = [
     image: "./images/nanobiotics.gif",
     link: "https://teabunnystudios.itch.io/nanobiotics",
   },
-  {
-    title: "Pomodoro Timer",
-    subtitle: "HTML/Javascript/Tailwind CSS",
-    description:
-      "A toy pomodoro timer website, click here to see the live page on Github pages.",
-    image: "./images/pomodoro_timer.gif",
-    link: "https://jonhpc.github.io/pomodoro-timer/",
-  },
+  // {
+  //   title: "Pomodoro Timer",
+  //   subtitle: "HTML/Javascript/Tailwind CSS",
+  //   description:
+  //     "A toy pomodoro timer website, click here to see the live page on Github pages.",
+  //   image: "./images/pomodoro_timer.gif",
+  //   link: "https://jonhpc.github.io/pomodoro-timer/",
+  // },
 ];
 
 export const profiles = [
@@ -210,16 +218,16 @@ export const skills = [
     name: "Unity",
     image: "./images/unity_logo.png"
   },
-  {
-    name: "Adobe Creative Suite",
-    image: "./images/adobe_logo.png"
-  },
-  {
-    name: "Swift",
-    image: "./images/swift_logo.png"
-  },
-  {
-    name: "Xcode",
-    image: "./images/xcode_logo.png"
-  },
+  // {
+  //   name: "Adobe Creative Suite",
+  //   image: "./images/adobe_logo.png"
+  // },
+  // {
+  //   name: "Swift",
+  //   image: "./images/swift_logo.png"
+  // },
+  // {
+  //   name: "Xcode",
+  //   image: "./images/xcode_logo.png"
+  // },
 ];
