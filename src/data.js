@@ -3,23 +3,15 @@ export const projects = [
     title: "Colada",
     subtitle: "Vue/Pinia/Chrome DevTool",
     description:
-      "Pinia State Management Library Developer Tools",
+      "Time-travel debugging tool for Pinia",
     image: "",
-    link: "",
+    link: "https://colada.dev",
   },
   {
     title: "Axolotl Beats",
     subtitle: "React/CSS/MongoDB/Node/Express/Spoitfy API",
     description:
       "Custom Spotify Playlist Generator",
-    image: "",
-    link: "",
-  },
-  {
-    title: "Histoical Climate Data",
-    subtitle: "React/MongoDB/Node/Express",
-    description:
-      "Climate Data Visualizer",
     image: "",
     link: "",
   },
@@ -103,14 +95,6 @@ export const projects = [
     image: "./images/pomodoro_timer.gif",
     link: "https://jonhpc.github.io/pomodoro-timer/",
   },
-  {
-    title: "Rock Paper Scissors",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy rock paper scissors page, click here to see the live page on Github pages.",
-    image: "./images/rps.gif",
-    link: "https://jonhpc.github.io/rock-paper-scissors/",
-  }, 
 ];
 
 export const profiles = [
@@ -191,21 +175,13 @@ export const skills = [
     image: "./images/express_logo.png"
   },
   {
-    name: "REST API",
-    image: "./images/rest_api_logo.png"
-  },
-  {
     name: "Jest",
     image: "./images/jest_logo.png"
   },
-  {
-    name: "Supertest",
-    image: "./images/supertest_logo.png"
-  },
-  {
-    name: "Authentication",
-    image: "./images/authentication_logo.png"
-  },
+  // {
+  //   name: "Supertest",
+  //   image: "./images/supertest_logo.png"
+  // },
   {
     name: "Webpack",
     image: "./images/webpack_logo.png"
@@ -245,9 +221,5 @@ export const skills = [
   {
     name: "Xcode",
     image: "./images/xcode_logo.png"
-  },
-  {
-    name: "Python",
-    image: "./images/python_logo.png"
   },
 ];
