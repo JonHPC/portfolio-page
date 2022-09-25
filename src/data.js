@@ -16,16 +16,8 @@ export const projects = [
     link: "https://colada.dev",
   },
   {
-    title: "Axolotl Beats",
-    subtitle: "React/MongoDB/Express/Spotify API",
-    description:
-      "Custom Spotify Playlist Generator",
-    image: "",
-    link: "https://github.com/Axolotl-Beats-52/axolotl-beats",
-  },
-  {
     title: "Octolog",
-    subtitle: "PostGreSQL/Node/Express/React",
+    subtitle: "React/Express/PostGreSQL",
     description:
       "Scuba Diving Log Application",
     image: "",
@@ -35,9 +27,17 @@ export const projects = [
     title: "rngee.io",
     subtitle: "React/CSS/Netlify",
     description:
-      "A responsive, toy page for generating a variety of random values. Deployed on Netlify. Click to view live site.",
+      "Random number generator",
     image: "./images/rngee.gif",
     link: "https://rngee.io",
+  },
+  {
+    title: "Axolotl Beats",
+    subtitle: "React/Express/Spotify/MongoDB",
+    description:
+      "Custom Spotify Playlist Generator",
+    image: "",
+    link: "https://github.com/Axolotl-Beats-52/axolotl-beats",
   },
   // {
   //   title: "Weather App",
@@ -75,7 +75,7 @@ export const projects = [
     title: "Tea Tumble",
     subtitle: "C#/Unity",
     description:
-      "A 'Falldown' inspired game made with Unity, hosted on Itch.io. Click to play!",
+      "A 'Falldown' inspired game made with Unity.",
     image: "./images/tea_tumble.gif",
     link: "https://teabunnystudios.itch.io/tea-tumble",
   },
@@ -83,7 +83,7 @@ export const projects = [
     title: "Square Pop",
     subtitle: "C#/Unity",
     description:
-      "Get Green. Dodge Red. A simple game made with Unity, hosted on Itch.io. Click to play!",
+      "Get Green. Dodge Red. A simple game made with Unity.",
     image: "./images/square_pop.gif",
     link: "https://teabunnystudios.itch.io/square-pop",
   },
@@ -91,7 +91,7 @@ export const projects = [
     title: "Nanobiotics",
     subtitle: "C#/Unity",
     description:
-      "A classic 'Shoot 'em up' made in a 3-day game jam, hosted on Itch.io. Click to play!",
+      "A classic 'Shoot 'em up' made in a 3-day game jam.",
     image: "./images/nanobiotics.gif",
     link: "https://teabunnystudios.itch.io/nanobiotics",
   },
