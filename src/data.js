@@ -3,25 +3,25 @@ export const projects = [
     title: "Colada",
     subtitle: "Vue/Pinia/Chrome DevTool",
     description:
-      "Time-travel debugging tool for Pinia",
-    image: "./images/colada.gif",
-    link: "https://github.com/oslabs-beta/colada",
-  },
-  {
-    title: "Colada Website",
-    subtitle: "Vue/Tailwind CSS",
-    description:
-      "Landing page for Colada DevTools",
-    image: "./images/colada-website.png",
-    link: "https://colada.dev",
+      "Pinia State Management Library Developer Tools",
+    image: "",
+    link: "",
   },
   {
     title: "Axolotl Beats",
-    subtitle: "React/MongoDB/Express/Spotify API",
+    subtitle: "React/CSS/MongoDB/Node/Express/Spoitfy API",
     description:
       "Custom Spotify Playlist Generator",
     image: "",
-    link: "https://github.com/Axolotl-Beats-52/axolotl-beats",
+    link: "",
+  },
+  {
+    title: "Histoical Climate Data",
+    subtitle: "React/MongoDB/Node/Express",
+    description:
+      "Climate Data Visualizer",
+    image: "",
+    link: "",
   },
   {
     title: "Octolog",
@@ -39,38 +39,38 @@ export const projects = [
     image: "./images/rngee.gif",
     link: "https://rngee.io",
   },
-  // {
-  //   title: "Weather App",
-  //   subtitle: "HTML/CSS/Javscript",
-  //   description:
-  //     "A responsive toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
-  //   image: "./images/weather_app.gif",
-  //   link: "https://jonhpc.github.io/weather-app",
-  // },
-  // {
-  //   title: "Etch a Sketch",
-  //   subtitle: "HTML/CSS/Javascript",
-  //   description:
-  //     "A toy Etch a Sketch webpage made for practice, click to see live page on Github Pages",
-  //   image: "./images/etch_a_sketch.gif",
-  //   link: "https://jonhpc.github.io/etch-a-sketch",
-  // },
-  // {
-  //   title: "Calculator",
-  //   subtitle: "HTML/CSS/Javascript",
-  //   description:
-  //     "A toy Calculator webpage made for practice, click to see live page on Github Pages",
-  //   image: "./images/calculator.gif",
-  //   link: "https://jonhpc.github.io/calculator",
-  // },
-  // {
-  //   title: "Tic Tac Toe",
-  //   subtitle: "HTML/CSS/Javascript",
-  //   description:
-  //     "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
-  //   image: "./images/tic_tac_toe.gif",
-  //   link: "https://jonhpc.github.io/tic-tac-toe",
-  // },
+  {
+    title: "Weather App",
+    subtitle: "HTML/CSS/Javscript",
+    description:
+      "A responsive toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
+    image: "./images/weather_app.gif",
+    link: "https://jonhpc.github.io/weather-app",
+  },
+  {
+    title: "Etch a Sketch",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Etch a Sketch webpage made for practice, click to see live page on Github Pages",
+    image: "./images/etch_a_sketch.gif",
+    link: "https://jonhpc.github.io/etch-a-sketch",
+  },
+  {
+    title: "Calculator",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Calculator webpage made for practice, click to see live page on Github Pages",
+    image: "./images/calculator.gif",
+    link: "https://jonhpc.github.io/calculator",
+  },
+  {
+    title: "Tic Tac Toe",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
+    image: "./images/tic_tac_toe.gif",
+    link: "https://jonhpc.github.io/tic-tac-toe",
+  },
   {
     title: "Tea Tumble",
     subtitle: "C#/Unity",
@@ -95,14 +95,22 @@ export const projects = [
     image: "./images/nanobiotics.gif",
     link: "https://teabunnystudios.itch.io/nanobiotics",
   },
-  // {
-  //   title: "Pomodoro Timer",
-  //   subtitle: "HTML/Javascript/Tailwind CSS",
-  //   description:
-  //     "A toy pomodoro timer website, click here to see the live page on Github pages.",
-  //   image: "./images/pomodoro_timer.gif",
-  //   link: "https://jonhpc.github.io/pomodoro-timer/",
-  // },
+  {
+    title: "Pomodoro Timer",
+    subtitle: "HTML/Javascript/Tailwind CSS",
+    description:
+      "A toy pomodoro timer website, click here to see the live page on Github pages.",
+    image: "./images/pomodoro_timer.gif",
+    link: "https://jonhpc.github.io/pomodoro-timer/",
+  },
+  {
+    title: "Rock Paper Scissors",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy rock paper scissors page, click here to see the live page on Github pages.",
+    image: "./images/rps.gif",
+    link: "https://jonhpc.github.io/rock-paper-scissors/",
+  }, 
 ];
 
 export const profiles = [
@@ -183,13 +191,21 @@ export const skills = [
     image: "./images/express_logo.png"
   },
   {
+    name: "REST API",
+    image: "./images/rest_api_logo.png"
+  },
+  {
     name: "Jest",
     image: "./images/jest_logo.png"
   },
-  // {
-  //   name: "Supertest",
-  //   image: "./images/supertest_logo.png"
-  // },
+  {
+    name: "Supertest",
+    image: "./images/supertest_logo.png"
+  },
+  {
+    name: "Authentication",
+    image: "./images/authentication_logo.png"
+  },
   {
     name: "Webpack",
     image: "./images/webpack_logo.png"
@@ -218,16 +234,20 @@ export const skills = [
     name: "Unity",
     image: "./images/unity_logo.png"
   },
-  // {
-  //   name: "Adobe Creative Suite",
-  //   image: "./images/adobe_logo.png"
-  // },
-  // {
-  //   name: "Swift",
-  //   image: "./images/swift_logo.png"
-  // },
-  // {
-  //   name: "Xcode",
-  //   image: "./images/xcode_logo.png"
-  // },
+  {
+    name: "Adobe Creative Suite",
+    image: "./images/adobe_logo.png"
+  },
+  {
+    name: "Swift",
+    image: "./images/swift_logo.png"
+  },
+  {
+    name: "Xcode",
+    image: "./images/xcode_logo.png"
+  },
+  {
+    name: "Python",
+    image: "./images/python_logo.png"
+  },
 ];

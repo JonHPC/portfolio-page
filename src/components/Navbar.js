@@ -6,7 +6,6 @@ import React from "react";
 export default function Navbar() {
 
     function toggleMode(){
-      console.log('toggle theme')
         if(localStorage.theme === 'dark'){
             localStorage.theme = 'light';
             document.documentElement.classList.remove('dark');
@@ -35,7 +34,7 @@ export default function Navbar() {
                 Profiles
             </a>
         </nav>
-        {/* <button onClick={toggleMode} className="focus:outline-none py-1 px-3 border-2 border-gray-500 mr-0 md:mr-5 hover:text-black dark:hover:text-white hover:bg-gray-300 dark:hover:bg-gray-700 rounded">Toggle Mode</button> */}
+        <button onClick={toggleMode} className="focus:outline-none py-1 px-3 border-2 border-gray-500 mr-0 md:mr-5 hover:text-black dark:hover:text-white hover:bg-gray-300 dark:hover:bg-gray-700 rounded">Toggle Mode</button>
         <a
           href="#contact"
           className="inline-flex items-center hover:text-black dark:hover:text-white bg-gray-200 dark:bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 dark:hover:bg-gray-700 rounded text-base mt-0 md:mt-0">

@@ -16,7 +16,7 @@ export default function App() {
       <About />
       <Skills />
       <Projects />
-      {/* <Profiles /> */}
+      <Profiles />
       <Contact />
     </main>
   );
