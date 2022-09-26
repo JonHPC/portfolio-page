@@ -5,8 +5,8 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-600 dark:text-gray-400 bg-gray-300 dark:bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-20">
+        <div className="flex flex-col w-full mt-10 mb-10">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black dark:text-white">
             Projects
           </h1>
@@ -16,7 +16,7 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.title}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-2">
               <div className="flex relative">
                 <img
                   alt="gallery"

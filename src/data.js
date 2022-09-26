@@ -8,7 +8,7 @@ export const projects = [
     link: "https://github.com/oslabs-beta/colada",
   },
   {
-    title: "Colada Website",
+    title: "colada.dev",
     subtitle: "Vue/Tailwind CSS",
     description:
       "Landing page for Colada DevTools",
@@ -20,8 +20,16 @@ export const projects = [
     subtitle: "React/Express/PostGreSQL",
     description:
       "Scuba Diving Log Application",
-    image: "",
-    link: "",
+    image: "./images/octolog.gif",
+    link: "https://github.com/JonHPC/octolog",
+  },
+  {
+    title: "Axolotl Beats",
+    subtitle: "React/Express/Spotify/MongoDB",
+    description:
+      "Custom Spotify Playlist Generator",
+    image: ".images/images/axolotl-beats.gif",
+    link: "https://github.com/Axolotl-Beats-52/axolotl-beats",
   },
   {
     title: "rngee.io",
@@ -30,14 +38,6 @@ export const projects = [
       "Random number generator",
     image: "./images/rngee.gif",
     link: "https://rngee.io",
-  },
-  {
-    title: "Axolotl Beats",
-    subtitle: "React/Express/Spotify/MongoDB",
-    description:
-      "Custom Spotify Playlist Generator",
-    image: "",
-    link: "https://github.com/Axolotl-Beats-52/axolotl-beats",
   },
   // {
   //   title: "Weather App",
@@ -75,7 +75,7 @@ export const projects = [
     title: "Tea Tumble",
     subtitle: "C#/Unity",
     description:
-      "A 'Falldown' inspired game made with Unity.",
+      "A 'Falldown' inspired game.",
     image: "./images/tea_tumble.gif",
     link: "https://teabunnystudios.itch.io/tea-tumble",
   },
@@ -83,7 +83,7 @@ export const projects = [
     title: "Square Pop",
     subtitle: "C#/Unity",
     description:
-      "Get Green. Dodge Red. A simple game made with Unity.",
+      "Get Green. Dodge Red.",
     image: "./images/square_pop.gif",
     link: "https://teabunnystudios.itch.io/square-pop",
   },
@@ -91,7 +91,7 @@ export const projects = [
     title: "Nanobiotics",
     subtitle: "C#/Unity",
     description:
-      "A classic 'Shoot 'em up' made in a 3-day game jam.",
+      "A SHUMP game made in a game jam.",
     image: "./images/nanobiotics.gif",
     link: "https://teabunnystudios.itch.io/nanobiotics",
   },

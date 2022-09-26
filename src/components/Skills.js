@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mt-10 mb-10">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-black dark:text-white mb-4">
             Skills &amp; Technologies
           </h1>
