@@ -48,6 +48,14 @@ export const projects = [
     link: "https://rngee.io",
   },
   {
+    title: "Pomodoro Timer",
+    subtitle: "HTML/Javascript/Tailwind CSS",
+    description:
+      "A toy pomodoro timer website",
+    image: "./images/pomodoro_timer.gif",
+    link: "https://jonhpc.github.io/pomodoro-timer/",
+  },
+  {
     title: "Tea Tumble",
     subtitle: "C#/Unity",
     description:
@@ -99,18 +107,11 @@ export const projects = [
     title: "Tic Tac Toe",
     subtitle: "HTML/CSS/Javascript",
     description:
-      "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
+      "A toy Tic Tac Toe app",
     image: "./images/tic_tac_toe.gif",
     link: "https://jonhpc.github.io/tic-tac-toe",
-  },
-  {
-    title: "Pomodoro Timer",
-    subtitle: "HTML/Javascript/Tailwind CSS",
-    description:
-      "A toy pomodoro timer website",
-    image: "./images/pomodoro_timer.gif",
-    link: "https://jonhpc.github.io/pomodoro-timer/",
   }
+  
 ];
 
 export const profiles = [
