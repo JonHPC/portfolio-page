@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React/Node/Express/PostGreSQL",
     description:
       "Semantic Management for SQL",
-    image: ".images/images/sqlizer.gif",
+    image: "./images/SQLizer.gif",
     link: "https://github.com/SQLizr/SQLizr",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "React/Express/Spotify/MongoDB",
     description:
       "Custom Spotify Playlist Generator",
-    image: ".images/images/axolotl-beats.gif",
+    image: "./images/axolotl-beats.gif",
     link: "https://github.com/Axolotl-Beats-52/axolotl-beats",
   },
   {
@@ -47,38 +47,6 @@ export const projects = [
     image: "./images/rngee.gif",
     link: "https://rngee.io",
   },
-  {
-    title: "Weather App",
-    subtitle: "HTML/CSS/Javscript",
-    description:
-      "A responsive toy Weather App, pulls weather data from Open Weather API, click to see live page on Github Pages",
-    image: "./images/weather_app.gif",
-    link: "https://jonhpc.github.io/weather-app",
-  },
-  {
-    title: "Etch a Sketch",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Etch a Sketch webpage made for practice, click to see live page on Github Pages",
-    image: "./images/etch_a_sketch.gif",
-    link: "https://jonhpc.github.io/etch-a-sketch",
-  },
-  {
-    title: "Calculator",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Calculator webpage made for practice, click to see live page on Github Pages",
-    image: "./images/calculator.gif",
-    link: "https://jonhpc.github.io/calculator",
-  },
-  // {
-  //   title: "Tic Tac Toe",
-  //   subtitle: "HTML/CSS/Javascript",
-  //   description:
-  //     "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
-  //   image: "./images/tic_tac_toe.gif",
-  //   link: "https://jonhpc.github.io/tic-tac-toe",
-  // },
   {
     title: "Tea Tumble",
     subtitle: "C#/Unity",
@@ -103,14 +71,46 @@ export const projects = [
     image: "./images/nanobiotics.gif",
     link: "https://teabunnystudios.itch.io/nanobiotics",
   },
-  // {
-  //   title: "Pomodoro Timer",
-  //   subtitle: "HTML/Javascript/Tailwind CSS",
-  //   description:
-  //     "A toy pomodoro timer website, click here to see the live page on Github pages.",
-  //   image: "./images/pomodoro_timer.gif",
-  //   link: "https://jonhpc.github.io/pomodoro-timer/",
-  // },
+  {
+    title: "Weather App",
+    subtitle: "HTML/CSS/Javscript",
+    description:
+      "A toy weather app",
+    image: "./images/weather_app.gif",
+    link: "https://jonhpc.github.io/weather-app",
+  },
+  {
+    title: "Etch a Sketch",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Etch a Sketch app",
+    image: "./images/etch_a_sketch.gif",
+    link: "https://jonhpc.github.io/etch-a-sketch",
+  },
+  {
+    title: "Calculator",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Calculator",
+    image: "./images/calculator.gif",
+    link: "https://jonhpc.github.io/calculator",
+  },
+  {
+    title: "Tic Tac Toe",
+    subtitle: "HTML/CSS/Javascript",
+    description:
+      "A toy Tic Tac Toe webpage made for practice, click to see live page on Github Pages",
+    image: "./images/tic_tac_toe.gif",
+    link: "https://jonhpc.github.io/tic-tac-toe",
+  },
+  {
+    title: "Pomodoro Timer",
+    subtitle: "HTML/Javascript/Tailwind CSS",
+    description:
+      "A toy pomodoro timer website",
+    image: "./images/pomodoro_timer.gif",
+    link: "https://jonhpc.github.io/pomodoro-timer/",
+  }
 ];
 
 export const profiles = [
