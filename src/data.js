@@ -195,10 +195,6 @@ export const skills = [
     name: "Jest",
     image: "./images/jest_logo.png"
   },
-  // {
-  //   name: "Supertest",
-  //   image: "./images/supertest_logo.png"
-  // },
   {
     name: "Webpack",
     image: "./images/webpack_logo.png"
@@ -227,10 +223,6 @@ export const skills = [
     name: "Unity",
     image: "./images/unity_logo.png"
   },
-  // {
-  //   name: "Adobe Creative Suite",
-  //   image: "./images/adobe_logo.png"
-  // },
   {
     name: "Swift",
     image: "./images/swift_logo.png"
