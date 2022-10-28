@@ -16,6 +16,14 @@ export const projects = [
     link: "https://colada.dev",
   },
   {
+    title: "Skill Squares",
+    subtitle: "React/Node/Express/MongoDB",
+    description:
+      "Interview Skill Tracker",
+    image: "./images/skill-squares.gif",
+    link: "https://github.com/JonHPC/skill-squares",
+  },
+  {
     title: "SQLizer",
     subtitle: "React/Node/Express/PostGreSQL",
     description:
@@ -103,14 +111,14 @@ export const projects = [
     image: "./images/calculator.gif",
     link: "https://jonhpc.github.io/calculator",
   },
-  {
-    title: "Tic Tac Toe",
-    subtitle: "HTML/CSS/Javascript",
-    description:
-      "A toy Tic Tac Toe app",
-    image: "./images/tic_tac_toe.gif",
-    link: "https://jonhpc.github.io/tic-tac-toe",
-  }
+//   {
+//     title: "Tic Tac Toe",
+//     subtitle: "HTML/CSS/Javascript",
+//     description:
+//       "A toy Tic Tac Toe app",
+//     image: "./images/tic_tac_toe.gif",
+//     link: "https://jonhpc.github.io/tic-tac-toe",
+//   }
   
 ];
 
