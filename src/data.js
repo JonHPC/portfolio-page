@@ -219,10 +219,10 @@ export const skills = [
     name: "AWS",
     image: "./images/aws_logo.png"
   },
-  {
-    name: "Travis CI",
-    image: "./images/travis_ci_logo.png"
-  },
+//   {
+//     name: "Travis CI",
+//     image: "./images/travis_ci_logo.png"
+//   },
   {
     name: "C#",
     image: "./images/c_sharp_logo.png"
@@ -231,12 +231,12 @@ export const skills = [
     name: "Unity",
     image: "./images/unity_logo.png"
   },
-  {
-    name: "Swift",
-    image: "./images/swift_logo.png"
-  },
-  {
-    name: "Xcode",
-    image: "./images/xcode_logo.png"
-  },
+//   {
+//     name: "Swift",
+//     image: "./images/swift_logo.png"
+//   },
+//   {
+//     name: "Xcode",
+//     image: "./images/xcode_logo.png"
+//   },
 ];
