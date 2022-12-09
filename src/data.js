@@ -219,10 +219,10 @@ export const skills = [
     name: "AWS",
     image: "./images/aws_logo.png"
   },
-//   {
-//     name: "Travis CI",
-//     image: "./images/travis_ci_logo.png"
-//   },
+  {
+    name: "Travis CI",
+    image: "./images/travis_ci_logo.png"
+  },
   {
     name: "C#",
     image: "./images/c_sharp_logo.png"
